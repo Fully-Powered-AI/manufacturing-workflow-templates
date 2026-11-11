@@ -1,0 +1,48 @@
+{
+  "id": "shipment-documentation-check",
+  "name": "Shipment documentation check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a job finishes, the shipping or quality lead gets one index comparing the order, the inspection records, the required certificates and the packing details, with each missing record and each quantity that does not agree set out. Nothing is certified or released.",
+  "directory": "https://fullypowered.ai/capabilities/shipment-documentation-check/",
+  "primary_function": "functions/quality-management",
+  "functions": [
+    "functions/quality-management",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "unshipped-order-review",
+    "audit-evidence-index",
+    "nonconformity-record-draft",
+    "job-readiness-packet"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of manufacturing quality and shipping work: an order, the business's own list of required documents, inspection records, the documents on file and the packing details, each with set column headers; every required document matched to its order line and lot; quantities compared lot by lot from ordered to inspected, accepted and packed; and every gap and difference written as a question for the quality and shipping leads."
+    }
+  ]
+}

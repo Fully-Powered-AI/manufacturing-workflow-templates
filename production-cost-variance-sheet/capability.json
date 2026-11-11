@@ -1,0 +1,46 @@
+{
+  "id": "production-cost-variance-sheet",
+  "name": "Production cost variance sheet",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "At period close the plant controller gets one sheet that separates material, labor and overhead differences from standard, by order and by product, with missing actuals and changed standards flagged. Each difference is a question for operations, never a cause.",
+  "directory": "https://fullypowered.ai/capabilities/production-cost-variance-sheet/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/private-equity-and-portfolios"
+  ],
+  "related": [
+    "budget-versus-actual-variance-commentary",
+    "cost-of-poor-quality-worksheet",
+    "month-end-close-checklist"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of explaining production-cost variances, and its rules for prepared work: the supplied standards and records as the only authority, every gap written as a question for a named role, and a person who verifies, confirms and decides."
+    }
+  ]
+}

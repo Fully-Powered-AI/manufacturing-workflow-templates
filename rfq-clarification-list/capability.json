@@ -1,0 +1,48 @@
+{
+  "id": "rfq-clarification-list",
+  "name": "RFQ clarification list",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.",
+  "directory": "https://fullypowered.ai/capabilities/rfq-clarification-list/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/engineering-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "vendor-quote-comparison",
+    "supplier-issue-notice",
+    "supplier-delivery-date-check",
+    "category-sourcing-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the manufacturing purchasing work of clarifying an incomplete request for quotation, with the method written for this template: the checks and their fixed identifiers, the split between details the buyer supplies and questions the engineer settles, and the dated record of supplier answers."
+    }
+  ]
+}

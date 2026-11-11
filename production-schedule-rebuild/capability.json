@@ -1,0 +1,47 @@
+{
+  "id": "production-schedule-rebuild",
+  "name": "Production schedule rebuild",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When orders or forecasts change, the production planner gets a draft build schedule from open orders, work-centre capacity and material availability, with every overload and shortage listed, not quietly fixed. The planner checks feasibility and approves the changes.",
+  "directory": "https://fullypowered.ai/capabilities/production-schedule-rebuild/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "demand-and-supply-review",
+    "inventory-reorder-plan",
+    "schedule-recovery-options"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of manufacturing production planning: open orders placed in their due weeks, hours loaded onto work centres, materials drawn from a running balance, firm and forecast demand kept in separate layers, and every overload and shortage listed for the planner to decide."
+    }
+  ]
+}
