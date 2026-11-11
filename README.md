@@ -2,10 +2,11 @@
 
 A plant where the next job is always ready to run. These capability templates are written for manufacturers. They prepare the schedules, packets and checks around a job from your own orders and records, and the people who run the plant decide what is made, when, and whether it ships.
 
-This repository holds 5 capability templates for production, planning and operations leads at a manufacturer. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 6 capability templates for production, planning and operations leads at a manufacturer. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
+- **[Field issue handoff to engineering](field-issue-handoff-to-engineering/)**: When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.
 - **[Job readiness packet](job-readiness-packet/)**: Before an order goes to the floor, the production or quality lead gets one packet: each requirement matched to its approved drawing, specification or inspection plan, with conflicting revisions, gaps and material shortfalls listed. The owners decide; nothing is approved or released.
 - **[Production cost variance sheet](production-cost-variance-sheet/)**: At period close the plant controller gets one sheet that separates material, labor and overhead differences from standard, by order and by product, with missing actuals and changed standards flagged. Each difference is a question for operations, never a cause.
 - **[Production schedule rebuild](production-schedule-rebuild/)**: When orders or forecasts change, the production planner gets a draft build schedule from open orders, work-centre capacity and material availability, with every overload and shortage listed, not quietly fixed. The planner checks feasibility and approves the changes.

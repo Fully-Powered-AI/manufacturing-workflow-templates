@@ -4,6 +4,14 @@
   "term": "industries/manufacturing",
   "capabilities": [
     {
+      "id": "field-issue-handoff-to-engineering",
+      "name": "Field issue handoff to engineering",
+      "version": "0.1.0",
+      "summary": "When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.",
+      "path": "field-issue-handoff-to-engineering/",
+      "directory": "https://fullypowered.ai/capabilities/field-issue-handoff-to-engineering/"
+    },
+    {
       "id": "job-readiness-packet",
       "name": "Job readiness packet",
       "version": "0.1.0",

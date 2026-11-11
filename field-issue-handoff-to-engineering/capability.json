@@ -1,0 +1,45 @@
+{
+  "id": "field-issue-handoff-to-engineering",
+  "name": "Field issue handoff to engineering",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.",
+  "directory": "https://fullypowered.ai/capabilities/field-issue-handoff-to-engineering/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "support-escalation-brief",
+    "help-article-from-a-resolved-issue",
+    "support-ticket-triage"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the manufacturing service work of preparing a field-issue handoff, and its own method for it: a fixed set of inputs with stops on mismatched headers, a safety scan before anything else, serial references matched to the delivery record without guessing, every symptom kept as the customer's unverified report, an intake checklist, and questions sorted by who can answer them."
+    }
+  ]
+}
