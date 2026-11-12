@@ -2,7 +2,7 @@
 
 A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.
 
-*Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/rfq-clarification-list/)*
+*Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/rfq-clarification-list/)*
 
 ## The outcome
 
@@ -86,10 +86,10 @@ Testing in your environment means running it on a past request whose problems yo
 
 ## Related workflow templates
 
-- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
-- [Supplier issue notice](https://fullypowered.ai/workflow templates/supplier-issue-notice/)
-- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
-- [Category sourcing plan](https://fullypowered.ai/workflow templates/category-sourcing-plan/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
+- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/)
+- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/)
+- [Category sourcing plan](https://fullypowered.ai/workflows/category-sourcing-plan/)
 
 ## Make it yours
 

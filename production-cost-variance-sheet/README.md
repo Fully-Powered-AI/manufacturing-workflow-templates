@@ -2,7 +2,7 @@
 
 At period close the plant controller gets one sheet that separates material, labor and overhead differences from standard, by order and by product, with missing actuals and changed standards flagged. Each difference is a question for operations, never a cause.
 
-*Workflow template · Manufacturing · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/production-cost-variance-sheet/)*
+*Workflow template · Manufacturing · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/production-cost-variance-sheet/)*
 
 ## The outcome
 
@@ -74,9 +74,9 @@ Testing in your environment means running it on a closed period your controller 
 
 ## Related workflow templates
 
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
-- [Cost of poor quality worksheet](https://fullypowered.ai/workflow templates/cost-of-poor-quality-worksheet/)
-- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
+- [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/)
+- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/)
 
 ## Make it yours
 

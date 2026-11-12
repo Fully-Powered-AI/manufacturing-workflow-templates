@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a job finishes, the shipping or quality lead gets one index comparing the order, the inspection records, the required certificates and the packing details, with each missing record and each quantity that does not agree set out. Nothing is certified or released.",
-  "directory": "https://fullypowered.ai/workflow templates/shipment-documentation-check/",
+  "directory": "https://fullypowered.ai/workflows/shipment-documentation-check/",
   "primary_function": "functions/quality-management",
   "functions": [
     "functions/quality-management",

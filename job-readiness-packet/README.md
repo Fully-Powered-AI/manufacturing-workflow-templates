@@ -2,7 +2,7 @@
 
 Before an order goes to the floor, the production or quality lead gets one packet: each requirement matched to its approved drawing, specification or inspection plan, with conflicting revisions, gaps and material shortfalls listed. The owners decide; nothing is approved or released.
 
-*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/job-readiness-packet/)*
+*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/job-readiness-packet/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your environment means running it on a past order you already know we
 
 ## Related workflow templates
 
-- [Obsolete copy check](https://fullypowered.ai/workflow templates/obsolete-copy-check/)
-- [Supplier quality response check](https://fullypowered.ai/workflow templates/supplier-quality-response-check/)
-- [Unshipped order review](https://fullypowered.ai/workflow templates/unshipped-order-review/)
+- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/)
+- [Supplier quality response check](https://fullypowered.ai/workflows/supplier-quality-response-check/)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
 
 ## Make it yours
 

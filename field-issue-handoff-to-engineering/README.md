@@ -2,7 +2,7 @@
 
 When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.
 
-*Workflow template · Manufacturing · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/field-issue-handoff-to-engineering/)*
+*Workflow template · Manufacturing · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/)*
 
 ## The outcome
 
@@ -82,9 +82,9 @@ Testing in your environment means running it on a few past cases your service le
 
 ## Related workflow templates
 
-- [Support escalation brief](https://fullypowered.ai/workflow templates/support-escalation-brief/)
-- [Help article from a resolved issue](https://fullypowered.ai/workflow templates/help-article-from-a-resolved-issue/)
-- [Support ticket triage](https://fullypowered.ai/workflow templates/support-ticket-triage/)
+- [Support escalation brief](https://fullypowered.ai/workflows/support-escalation-brief/)
+- [Help article from a resolved issue](https://fullypowered.ai/workflows/help-article-from-a-resolved-issue/)
+- [Support ticket triage](https://fullypowered.ai/workflows/support-ticket-triage/)
 
 ## Make it yours
 

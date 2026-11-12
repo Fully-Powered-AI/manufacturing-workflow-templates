@@ -2,7 +2,7 @@
 
 When a job finishes, the shipping or quality lead gets one index comparing the order, the inspection records, the required certificates and the packing details, with each missing record and each quantity that does not agree set out. Nothing is certified or released.
 
-*Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/shipment-documentation-check/)*
+*Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/shipment-documentation-check/)*
 
 ## The outcome
 
@@ -89,9 +89,9 @@ Testing in your environment means running it on a recent shipment that your qual
 
 ## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/workflow templates/unshipped-order-review/)
-- [Audit evidence index](https://fullypowered.ai/workflow templates/audit-evidence-index/)
-- [Nonconformity record draft](https://fullypowered.ai/workflow templates/nonconformity-record-draft/)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
+- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/)
+- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/)
 - [Job readiness packet](../job-readiness-packet/)
 
 ## Make it yours

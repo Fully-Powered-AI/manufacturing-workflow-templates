@@ -2,7 +2,7 @@
 
 When orders or forecasts change, the production planner gets a draft build schedule from open orders, work-centre capacity and material availability, with every overload and shortage listed, not quietly fixed. The planner checks feasibility and approves the changes.
 
-*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/production-schedule-rebuild/)*
+*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/production-schedule-rebuild/)*
 
 ## The outcome
 
@@ -83,9 +83,9 @@ Testing in your environment means running it on a past rebuild the planner alrea
 
 ## Related workflow templates
 
-- [Demand and supply review](https://fullypowered.ai/workflow templates/demand-and-supply-review/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
-- [Schedule recovery options](https://fullypowered.ai/workflow templates/schedule-recovery-options/)
+- [Demand and supply review](https://fullypowered.ai/workflows/demand-and-supply-review/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Schedule recovery options](https://fullypowered.ai/workflows/schedule-recovery-options/)
 
 ## Make it yours
 
