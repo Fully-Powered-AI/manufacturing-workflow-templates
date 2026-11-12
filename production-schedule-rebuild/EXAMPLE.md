@@ -1,6 +1,6 @@
 # Production schedule rebuild: an invented example
 
-*Illustrative example with invented data.* The company, the items, the orders, the work centres and every figure below are invented. "Company A" is an invented 30-person maker of steel shelving. The production planner runs the rebuild after a customer pulls an order forward and a rush order arrives; the sales lead, the purchasing lead and the plant manager answer the questions that depend on them. First come the inputs the planner supplied, in full, then the draft the capability returned.
+*Illustrative example with invented data.* The company, the items, the orders, the work centres and every figure below are invented. "Company A" is an invented 30-person maker of steel shelving. The production planner runs the rebuild after a customer pulls an order forward and a rush order arrives; the sales lead, the purchasing lead and the plant manager answer the questions that depend on them. First come the inputs the planner supplied, in full, then the draft the workflow template returned.
 
 ## The inputs
 

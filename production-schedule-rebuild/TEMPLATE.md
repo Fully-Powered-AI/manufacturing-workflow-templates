@@ -1,6 +1,6 @@
 # Production schedule rebuild
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Use it when an order is added, moved or cancelled, when a forecast is revised, w
 Do not use it:
 
 - to forecast demand or compare demand with supply over months. That is the demand and supply review;
-- to work out what to buy or when. That is the inventory reorder plan; this capability only shows where the material on hand and confirmed does not cover the schedule;
+- to work out what to buy or when. That is the inventory reorder plan; this workflow template only shows where the material on hand and confirmed does not cover the schedule;
 - to sequence jobs within a week, plan set-ups or changeovers, or balance a line. It places whole orders in whole weeks;
 - to decide whether a routing, a rate or a method is safe or feasible on the floor. Engineering and the planner decide that;
 - to release work, to issue work orders, or to choose between customers. People do that.
@@ -25,7 +25,7 @@ Do not use it:
 - **Answers customer dates, rush requests and forecast changes:** the sales lead.
 - **Answers material dates and supplier confirmations:** the purchasing lead.
 - **Answers capacity, routings and what the floor can really do:** the production or plant manager.
-- **Releases work orders:** the role the company names. Always a person, and never this capability.
+- **Releases work orders:** the role the company names. Always a person, and never this workflow template.
 
 Use the titles your company uses.
 

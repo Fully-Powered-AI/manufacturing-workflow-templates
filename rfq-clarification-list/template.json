@@ -1,10 +1,10 @@
 {
   "id": "rfq-clarification-list",
   "name": "RFQ clarification list",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.",
-  "directory": "https://fullypowered.ai/capabilities/rfq-clarification-list/",
+  "directory": "https://fullypowered.ai/workflow templates/rfq-clarification-list/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

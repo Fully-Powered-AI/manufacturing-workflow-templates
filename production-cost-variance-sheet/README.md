@@ -2,7 +2,7 @@
 
 At period close the plant controller gets one sheet that separates material, labor and overhead differences from standard, by order and by product, with missing actuals and changed standards flagged. Each difference is a question for operations, never a cause.
 
-*Capability template · Manufacturing · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/production-cost-variance-sheet/)*
+*Workflow template · Manufacturing · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/production-cost-variance-sheet/)*
 
 ## The outcome
 
@@ -37,7 +37,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the plant has run long enough to have standards worth measuring against.
 - [Private equity & portfolios](https://fullypowered.ai/situations/private-equity-and-portfolios/), where a portfolio plant reports the same variance view to its owners every period.
 
-It sits beside two related capabilities and does not replace them. [Budget-versus-actual variance commentary](https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/) works from budget lines in the results; this one works from unit standards by order. [Cost of poor quality worksheet](https://fullypowered.ai/capabilities/cost-of-poor-quality-worksheet/) sorts rework, scrap and return costs; this one never says why material or hours ran over.
+It sits beside two related workflow templates and does not replace them. [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/) works from budget lines in the results; this one works from unit standards by order. [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/) sorts rework, scrap and return costs; this one never says why material or hours ran over.
 
 ## What has to change for your company
 
@@ -45,9 +45,9 @@ Map your own column names and cost-card layout to the default headers. Set the r
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once, with Claude, on its invented example on 10 November 2026, and the record is published with it. That run was not blind: the model had seen the published example and an earlier run before it worked the arithmetic. No stop condition came up in the run. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once, with Claude, on its invented example on 10 November 2026, and the record is published with it. That run was not blind: the model had seen the published example and an earlier run before it worked the arithmetic. No stop condition came up in the run. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a closed period your controller already knows, with cases written in advance: an order with no labor posting, a standard that changed mid-order, a header that does not match. The controller recomputes every variance by hand before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
+Testing in your environment means running it on a closed period your controller already knows, with cases written in advance: an order with no labor posting, a standard that changed mid-order, a header that does not match. The controller recomputes every variance by hand before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -58,11 +58,11 @@ Testing in your environment means running it on a closed period your controller 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -72,12 +72,12 @@ Testing in your environment means running it on a closed period your controller 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/)
-- [Cost of poor quality worksheet](https://fullypowered.ai/capabilities/cost-of-poor-quality-worksheet/)
-- [Month-end close checklist](https://fullypowered.ai/capabilities/month-end-close-checklist/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
+- [Cost of poor quality worksheet](https://fullypowered.ai/workflow templates/cost-of-poor-quality-worksheet/)
+- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

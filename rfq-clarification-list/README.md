@@ -2,17 +2,17 @@
 
 A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.
 
-*Capability template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/rfq-clarification-list/)*
+*Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/rfq-clarification-list/)*
 
 ## The outcome
 
-An incomplete request for quotation costs more than the time it takes to fix. Suppliers fill the gaps with their own guesses, quote different revisions, and send back prices that cannot be set side by side. This capability finds the gaps before the quotes come back, and keeps them in one place afterwards.
+An incomplete request for quotation costs more than the time it takes to fix. Suppliers fill the gaps with their own guesses, quote different revisions, and send back prices that cannot be set side by side. This workflow template finds the gaps before the quotes come back, and keeps them in one place afterwards.
 
 The buyer works from a single list. Each line of the request is checked against its drawings and the document register. What is blank is listed as a missing detail. Where one document says one thing and another says something else, such as a revision, a thickness or a specification, the list quotes both documents side by side and sends the question to the responsible engineer. Where a tolerance is missing, stated twice in different ways or written only in words, the list quotes the text exactly and sends it to the engineer too.
 
 As suppliers answer, each answer is recorded against the item it belongs to, by supplier and date. The list shows which suppliers have not answered past the reply date, where two suppliers have assumed different things, and where a supplier has volunteered a tolerance or a revision of their own. A volunteered assumption is recorded as that supplier's assumption and nothing more.
 
-The capability sends nothing and settles nothing. It does not decide which revision is right and does not interpret a tolerance. The buyer approves every message to a supplier, and the responsible engineer settles every technical conflict.
+The workflow template sends nothing and settles nothing. It does not decide which revision is right and does not interpret a tolerance. The buyer approves every message to a supplier, and the responsible engineer settles every technical conflict.
 
 ## Who starts the work, and when
 
@@ -53,13 +53,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - **Who settles what.** Which engineer owns which drawings and specifications, and whether quality or production also rule on some items.
 - **Your column headers.** The names your request export and document register use, so the assistant can read them.
 - **Your message style.** The wording, the sign-off and whether suppliers get one message or one each.
-- **Your reviewer for commercial terms.** Questions about terms and conditions in the request are left to whoever you name; this capability does not answer them.
+- **Your reviewer for commercial terms.** Questions about terms and conditions in the request are left to whoever you name; this workflow template does not answer them.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment.
 
-Testing in your environment means running it on a past request whose problems you already know, with cases written in advance: a revision that differs between the request and the drawing, a tolerance stated twice, a supplier who guesses. The buyer and the engineer check every item against the documents before anyone relies on the list. [Vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/) takes over once the quotes are in, setting them side by side; this one stops at what suppliers say about the request and leaves any price unread. [Supplier issue notice](https://fullypowered.ai/capabilities/supplier-issue-notice/) handles the later step, when a supplier falls short of what was agreed; this one is about the request before the order.
+Testing in your environment means running it on a past request whose problems you already know, with cases written in advance: a revision that differs between the request and the drawing, a tolerance stated twice, a supplier who guesses. The buyer and the engineer check every item against the documents before anyone relies on the list. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/) takes over once the quotes are in, setting them side by side; this one stops at what suppliers say about the request and leaves any price unread. [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/) handles the later step, when a supplier falls short of what was agreed; this one is about the request before the order.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -70,11 +70,11 @@ Testing in your environment means running it on a past request whose problems yo
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -84,13 +84,13 @@ Testing in your environment means running it on a past request whose problems yo
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/)
-- [Supplier issue notice](https://fullypowered.ai/capabilities/supplier-issue-notice/)
-- [Supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/)
-- [Category sourcing plan](https://fullypowered.ai/capabilities/category-sourcing-plan/)
+- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
+- [Supplier issue notice](https://fullypowered.ai/workflow templates/supplier-issue-notice/)
+- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
+- [Category sourcing plan](https://fullypowered.ai/workflow templates/category-sourcing-plan/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

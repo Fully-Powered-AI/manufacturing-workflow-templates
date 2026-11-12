@@ -4,7 +4,7 @@
 
 ## The situation
 
-Quillfeather Assemblies, an invented maker of enclosures, has sent a request for quotation, RFQ-2611-04, for four sheet-metal and turned parts to three suppliers. The buyer is Priya. The responsible engineer is Tomas. Today is Monday 16 November 2026. Priya runs the capability to see where the request stands. The working days are Monday to Friday and no day is closed.
+Quillfeather Assemblies, an invented maker of enclosures, has sent a request for quotation, RFQ-2611-04, for four sheet-metal and turned parts to three suppliers. The buyer is Priya. The responsible engineer is Tomas. Today is Monday 16 November 2026. Priya runs the workflow template to see where the request stands. The working days are Monday to Friday and no day is closed.
 
 ## What the buyer supplies
 

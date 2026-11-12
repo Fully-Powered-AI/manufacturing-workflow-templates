@@ -2,21 +2,21 @@
 
 When a job finishes, the shipping or quality lead gets one index comparing the order, the inspection records, the required certificates and the packing details, with each missing record and each quantity that does not agree set out. Nothing is certified or released.
 
-*Capability template · Manufacturing · Quality management · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/shipment-documentation-check/)*
+*Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/shipment-documentation-check/)*
 
 ## The outcome
 
-The last hour before a shipment leaves is a bad time to find that a certificate was never filed, or that fifty-five pieces are on the pallet for an order of fifty. This capability does the comparison earlier, in one pass, while there is still time to find the paper or count the pieces again.
+The last hour before a shipment leaves is a bad time to find that a certificate was never filed, or that fifty-five pieces are on the pallet for an order of fifty. This workflow template does the comparison earlier, in one pass, while there is still time to find the paper or count the pieces again.
 
 You get an index with one entry for every document your own list requires. Each entry says whether a matching document is on file, when it is dated, whether it is shown as signed, and whether it agrees with the order on item code and revision. Under it, each order line has its quantities side by side: ordered, inspected, accepted, rejected and packed, and the same for each lot or serial group, so a lot packed beyond what was accepted is visible.
 
-The list of what is required is yours. The capability does not decide which certificates a customer or a standard calls for, and it does not read a certificate to judge what it proves. It reports what is present, what is absent and what disagrees. Quality and shipping make the release decisions.
+The list of what is required is yours. The workflow template does not decide which certificates a customer or a standard calls for, and it does not read a certificate to judge what it proves. It reports what is present, what is absent and what disagrees. Quality and shipping make the release decisions.
 
 ## Who starts the work, and when
 
 A shipping lead, a quality lead or a coordinator working for either runs it when a job finishes, before the shipment is booked or the goods leave. Run it again after missing records are found or the packing changes.
 
-The quality lead decides what the records show and whether any of them is acceptable. The shipping lead decides whether the shipment goes, and how. The capability signs and issues no certificate, makes no judgment on conformity or on export requirements, and contacts nobody.
+The quality lead decides what the records show and whether any of them is acceptable. The shipping lead decides whether the shipment goes, and how. The workflow template signs and issues no certificate, makes no judgment on conformity or on export requirements, and contacts nobody.
 
 ## What they supply
 
@@ -47,7 +47,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the check lives in one person's head and one folder.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when more jobs ship each week than one person can check by eye.
 
-It checks one finished order's papers against its quantities. Preparing audit evidence across the business is [audit evidence index](https://fullypowered.ai/capabilities/audit-evidence-index/). The daily list of orders that have not gone out is [unshipped order review](https://fullypowered.ai/capabilities/unshipped-order-review/). A finding that becomes a nonconformity record is [nonconformity record draft](https://fullypowered.ai/capabilities/nonconformity-record-draft/).
+It checks one finished order's papers against its quantities. Preparing audit evidence across the business is [audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/). The daily list of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/). A finding that becomes a nonconformity record is [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/).
 
 ## What has to change for your company
 
@@ -60,7 +60,7 @@ It checks one finished order's papers against its quantities. Preparing audit ev
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was not blind. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was not blind. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a recent shipment that your quality lead knows well, plus hard cases written in advance with their expected results: a renamed column, a certificate for the wrong revision, a lot packed beyond what was accepted, a document that is not signed, a line with no inspection record. The quality lead checks every finding against the files before anyone relies on it.
 
@@ -73,11 +73,11 @@ Testing in your environment means running it on a recent shipment that your qual
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -87,13 +87,13 @@ Testing in your environment means running it on a recent shipment that your qual
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/capabilities/unshipped-order-review/)
-- [Audit evidence index](https://fullypowered.ai/capabilities/audit-evidence-index/)
-- [Nonconformity record draft](https://fullypowered.ai/capabilities/nonconformity-record-draft/)
+- [Unshipped order review](https://fullypowered.ai/workflow templates/unshipped-order-review/)
+- [Audit evidence index](https://fullypowered.ai/workflow templates/audit-evidence-index/)
+- [Nonconformity record draft](https://fullypowered.ai/workflow templates/nonconformity-record-draft/)
 - [Job readiness packet](../job-readiness-packet/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

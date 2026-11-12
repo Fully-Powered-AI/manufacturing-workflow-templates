@@ -1,10 +1,10 @@
 {
   "id": "production-cost-variance-sheet",
   "name": "Production cost variance sheet",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "At period close the plant controller gets one sheet that separates material, labor and overhead differences from standard, by order and by product, with missing actuals and changed standards flagged. Each difference is a question for operations, never a cause.",
-  "directory": "https://fullypowered.ai/capabilities/production-cost-variance-sheet/",
+  "directory": "https://fullypowered.ai/workflow templates/production-cost-variance-sheet/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

@@ -2,7 +2,7 @@
 
 When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.
 
-*Capability template · Manufacturing · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/field-issue-handoff-to-engineering/)*
+*Workflow template · Manufacturing · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/field-issue-handoff-to-engineering/)*
 
 ## The outcome
 
@@ -53,9 +53,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the latest run, made by the same session that revised it after an independent review led to edits, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the latest run, made by the same session that revised it after an independent review led to edits, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a few past cases your service lead remembers well, plus hard cases written in advance, each with the expected result: a delivery-record export whose headings do not match, a serial number that is only partly readable, two records with different revisions for one serial, a report that mentions a burning smell, a customer who asks what is wrong. The service lead checks every serial, date and statement against the case before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a few past cases your service lead remembers well, plus hard cases written in advance, each with the expected result: a delivery-record export whose headings do not match, a serial number that is only partly readable, two records with different revisions for one serial, a report that mentions a burning smell, a customer who asks what is wrong. The service lead checks every serial, date and statement against the case before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on a few past cases your service le
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,12 +80,12 @@ Testing in your environment means running it on a few past cases your service le
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Support escalation brief](https://fullypowered.ai/capabilities/support-escalation-brief/)
-- [Help article from a resolved issue](https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/)
-- [Support ticket triage](https://fullypowered.ai/capabilities/support-ticket-triage/)
+- [Support escalation brief](https://fullypowered.ai/workflow templates/support-escalation-brief/)
+- [Help article from a resolved issue](https://fullypowered.ai/workflow templates/help-article-from-a-resolved-issue/)
+- [Support ticket triage](https://fullypowered.ai/workflow templates/support-ticket-triage/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
