@@ -20,6 +20,14 @@
       "directory": "https://fullypowered.ai/workflows/job-readiness-packet/"
     },
     {
+      "id": "line-changeover-review",
+      "name": "Line changeover review",
+      "version": "0.1.0",
+      "summary": "From the observed steps and timings of one changeover, the production lead gets every step sorted into work that needs the line stopped and work that could be done while it runs, the stop totalled, and an improvement plan to test on the line. Safety and quality steps are never proposed for removal.",
+      "path": "line-changeover-review/",
+      "directory": "https://fullypowered.ai/workflows/line-changeover-review/"
+    },
+    {
       "id": "production-cost-variance-sheet",
       "name": "Production cost variance sheet",
       "version": "0.1.0",
@@ -42,6 +50,14 @@
       "summary": "A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.",
       "path": "rfq-clarification-list/",
       "directory": "https://fullypowered.ai/workflows/rfq-clarification-list/"
+    },
+    {
+      "id": "scrap-and-trim-loss-review",
+      "name": "Scrap and trim loss review",
+      "version": "0.1.0",
+      "summary": "Each week or month the plant manager gets one review of the material recorded as scrap and trim, by product, machine, shift and reason, with a balance for each completed order, every place the records disagree, and improvement questions. It states no cause the records do not show.",
+      "path": "scrap-and-trim-loss-review/",
+      "directory": "https://fullypowered.ai/workflows/scrap-and-trim-loss-review/"
     },
     {
       "id": "shipment-documentation-check",

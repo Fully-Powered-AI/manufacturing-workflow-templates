@@ -1,0 +1,47 @@
+{
+  "id": "scrap-and-trim-loss-review",
+  "name": "Scrap and trim loss review",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Each week or month the plant manager gets one review of the material recorded as scrap and trim, by product, machine, shift and reason, with a balance for each completed order, every place the records disagree, and improvement questions. It states no cause the records do not show.",
+  "directory": "https://fullypowered.ai/workflows/scrap-and-trim-loss-review/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "cost-of-poor-quality-worksheet",
+    "production-cost-variance-sheet",
+    "operations-kpi-scorecard"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of reviewing scrap and trim loss in a plant, and its own rules for prepared work: stated column headers with a stop when one does not match, blanks and other units never filled or converted, records that disagree put as questions to the person who keeps them, no cause stated, and a person who decides what to investigate."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "line-changeover-review",
+  "name": "Line changeover review",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "From the observed steps and timings of one changeover, the production lead gets every step sorted into work that needs the line stopped and work that could be done while it runs, the stop totalled, and an improvement plan to test on the line. Safety and quality steps are never proposed for removal.",
+  "directory": "https://fullypowered.ai/workflows/line-changeover-review/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/consumer-brands",
+    "industries/hardware-and-physical-technology"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "production-schedule-rebuild",
+    "sop-from-how-the-work-is-done",
+    "process-map-and-bottleneck-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of manufacturing work: one observed changeover timed by the clock, each step sorted into work that needs the line stopped and work that could be done while it runs, safety and quality steps kept as observed, and an improvement plan for the production team to test on the line before adopting anything."
+    }
+  ]
+}
