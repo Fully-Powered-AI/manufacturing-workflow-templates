@@ -26,7 +26,7 @@
     "job-readiness-packet"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -42,7 +42,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of manufacturing quality and shipping work: an order, the business's own list of required documents, inspection records, the documents on file and the packing details, each with set column headers; every required document matched to its order line and lot; quantities compared lot by lot from ordered to inspected, accepted and packed; and every gap and difference written as a question for the quality and shipping leads."
+      "title": "FullyPowered AI's own design, written from its published map of manufacturing quality and shipping work: an order, the business's own list of required documents, inspection records, the documents on file and the packing details, each with set column headers; every required document matched to its order line and lot; quantities compared lot by lot from ordered to inspected, accepted and packed; and every gap and difference written as a question for the quality and shipping leads."
     }
   ]
 }

@@ -257,4 +257,4 @@ sheet to the controller only.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried once, with Claude, on its invented example on 10 November 2026; the record is published with it. The run was not blind: the model had seen the published example and an earlier run before it worked the arithmetic. No stop condition came up in the run. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once, with Claude, on its invented example on 10 November 2026; the record is published with it. The run was not blind: the model had seen the published example and an earlier run before it worked the arithmetic. No stop condition came up in the run. Not yet tested in a client environment.

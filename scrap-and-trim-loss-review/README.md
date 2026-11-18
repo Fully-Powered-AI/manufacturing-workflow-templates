@@ -51,11 +51,11 @@ Map your own export columns to the default headers. Agree the reason code list w
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template. It was editorially reviewed on 12 November 2026. It was tried once, with Claude, on its invented example on 12 November 2026; no stop condition, request for a cause or a culprit, request to cost the loss, or note naming a person was exercised in that run, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 12 November 2026. It was tried once, with Claude, on its invented example on 12 November 2026; no stop condition, request for a cause or a culprit, request to cost the loss, or note naming a person was exercised in that run, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past month your plant manager already knows, with cases written in advance: a scrap entry recorded in pieces instead of weight, a run with rejected parts and no scrap entry, a completed order whose issues do not balance, a blank reason code. The plant manager recomputes two groups and one balance by hand before anyone relies on the review. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 12 November 2026.
 - Package format checked by script on every release.
@@ -86,4 +86,4 @@ Testing in your environment means running it on a past month your plant manager 
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).

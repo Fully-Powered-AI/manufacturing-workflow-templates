@@ -23,7 +23,7 @@
     "support-ticket-triage"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -39,7 +39,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of the manufacturing service work of preparing a field-issue handoff, and its own method for it: a fixed set of inputs with stops on mismatched headers, a safety scan before anything else, serial references matched to the delivery record without guessing, every symptom kept as the customer's unverified report, an intake checklist, and questions sorted by who can answer them."
+      "title": "FullyPowered AI's own published map of the manufacturing service work of preparing a field-issue handoff, and its own method for it: a fixed set of inputs with stops on mismatched headers, a safety scan before anything else, serial references matched to the delivery record without guessing, every symptom kept as the customer's unverified report, an intake checklist, and questions sorted by who can answer them."
     }
   ]
 }
