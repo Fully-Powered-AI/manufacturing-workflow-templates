@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [example.md](example.md): the seven input blocks (settings, open orders, routings, capacity, bills of material, material supply and current plan). No client data was used. The run followed the fenced instruction block and the output format in the template, using the inputs only. The example's own draft was not read until after this output was written.
+The inputs were the example in [example.md](example.md): the seven input blocks (settings, open orders, routings, capacity, bills of material, material supply and current plan). No client data was used. The run followed the fenced instruction block and the output format in the template, using the inputs only. The example's own draft was not read until after this output was written.
 
 **Edited after this run, 10 November 2026.** Following an independent review, the template and the published example were edited after the run recorded here, and the run was not repeated. The output and the observations below are left as recorded, so where they describe the template or the example they describe them as they stood at the time of the run. The edits are listed under "Edited after this run" at the end.
 

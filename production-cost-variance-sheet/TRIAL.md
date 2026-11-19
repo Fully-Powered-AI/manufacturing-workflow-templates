@@ -1,10 +1,10 @@
-# Production cost variance sheet: a trial on its invented example
+# Production cost variance sheet: a trial on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-This is the second run of the day. The first run, on the first wording of the template, found that the template did not say whether the over-limit test applies to an element's total or only to its two parts, did not define two header counts, and printed a combined tie-out figure nowhere else on the sheet. The template was then revised, and this record replaces the first run's record. The inputs were the invented example in `public/example.md` (the standard cost cards, the five orders and the settings for "Plant A"; the settings now also say that the material unit and the overhead basis were confirmed). No client data was used.
+This is the second run of the day. The first run, on the first wording of the template, found that the template did not say whether the over-limit test applies to an element's total or only to its two parts, did not define two header counts, and printed a combined tie-out figure nowhere else on the sheet. The template was then revised, and this record replaces the first run's record. The inputs were the example in `public/example.md` (the standard cost cards, the five orders and the settings for "Plant A"; the settings now also say that the material unit and the overhead basis were confirmed). No client data was used.
 
 After this run, the template's wording was clarified in four places without changing the example's inputs or its output: which flags get a question and to whom, where a zero actual is listed (under Missing actuals), whether tie-out amounts carry U or F, and the pattern lines for questions. No new run was made; the sheet below was checked by reading against the clarified wording and nothing in it changes, but it was produced by the earlier wording.
 
@@ -84,4 +84,4 @@ Every figure traces to the standards file (standard cost cards, rows effective 2
 - Under the revised step 8 the over-limit test is applied to the six parts only. Three parts reach the limits (WO-1001 labor efficiency, WO-1001 overhead efficiency, WO-2002 material price); WO-1001 material total (660.00 U, 6.6%) has two parts under the limits and gets no question, as printed. The questions are numbered with the two difference questions first and the flag-only question last.
 - The combined line now prints its own material, labor and overhead figures (2,705.00, 1,025.00 and 100.00), so the tie-out's material figure is on the sheet. The header counts follow the definitions in step 7: 5 supplied, 4 computed in full, 1 computed in part or not at all, 2 carrying a flag (WO-1003 and WO-2002).
 - Nothing was asked for that the inputs did not hold, and no cause was stated. The "average of 5.50 per kg" in question 2 is derived (16,610.00 / 3,020).
-- This is one run in one product on one invented example. It is not a test in a client environment, and it was not independent of the example's output.
+- This is one run in one product on one example. It is not a test in a client environment, and it was not independent of the example's output.

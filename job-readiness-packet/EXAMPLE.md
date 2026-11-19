@@ -1,6 +1,6 @@
-# Job readiness packet: an invented example
+# Job readiness packet: an example
 
-*Illustrative example with invented data.* The firm, the people, the documents, the part numbers, the dates and the quantities below are all invented. The firm is an invented 40-person machine shop whose production planner prepares a packet before job J-2043 is released to the floor. First come the inputs the planner supplied, in full, then the packet the workflow template returned.
+*Illustrative example with sample data.* The firm, the people, the documents, the part numbers, the dates and the quantities below are all illustrative. The firm is an illustrative 40-person machine shop whose production planner prepares a packet before job J-2043 is released to the floor. First come the inputs the planner supplied, in full, then the packet the workflow template returned.
 
 ## The inputs
 

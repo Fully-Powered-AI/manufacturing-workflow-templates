@@ -302,4 +302,4 @@ the buyer's word.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Editorially reviewed. Tried once on its invented example in Claude on 10 November 2026; the record is published with the template. Edited after that run, following an independent review, and not run again; the trial record lists the edits. Each settles an ambiguity the run found, in the way that run already chose except where the trial record says otherwise. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Editorially reviewed. Tried once on its example in Claude on 10 November 2026; the record is published with the template. Edited after that run, following an independent review, and not run again; the trial record lists the edits. Each settles an ambiguity the run found, in the way that run already chose except where the trial record says otherwise. Not yet tested in a client environment.

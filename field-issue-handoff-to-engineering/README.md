@@ -8,7 +8,7 @@ Give engineering one case brief for a misbehaving delivered product: revision an
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Manufacturing · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-field-issue-handoff-to-engineering&from=gh-field-issue-handoff-to-engineering)*
@@ -41,7 +41,7 @@ The person running it gathers the customer's report, the delivery record for the
 
 One internal brief in a fixed order: a safety check, the case, product, revision and serial references, symptoms as reported, evidence supplied, what service has done, conflicts and gaps, the intake checklist with a count, the questions still unanswered and who can answer each, the points for engineering to decide, and the questions for the service lead to settle before it goes. A section with nothing to report says so in a fixed line.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -62,7 +62,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of the latest run, made by the same session that revised it after an independent review led to edits, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its example in Claude on 10 November 2026; the record of the latest run, made by the same session that revised it after an independent review led to edits, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a few past cases your service lead remembers well, plus hard cases written in advance, each with the expected result: a delivery-record export whose headings do not match, a serial number that is only partly readable, two records with different revisions for one serial, a report that mentions a burning smell, a customer who asks what is wrong. The service lead checks every serial, date and statement against the case before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-field-issue-handoff-to-engineering&from=gh-field-issue-handoff-to-engineering) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-field-issue-handoff-to-engineering&from=gh-field-issue-handoff-to-engineering) describes the record we keep.
 
@@ -70,13 +70,13 @@ Testing in your environment means running it on a few past cases your service le
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (settings, order lines, requirements, document register and material lines). No client data was used. The assistant was given the template's fenced instruction block and output format and the example's inputs, and produced the packet below before comparing it with the example's published output.
+The inputs were the example in `public/example.md` (settings, order lines, requirements, document register and material lines). No client data was used. The assistant was given the template's fenced instruction block and output format and the example's inputs, and produced the packet below before comparing it with the example's published output.
 
 One slip in method: the first read of the example file was cut at a character limit and showed the start of the published output, up to the second decision, before the packet was worked out. The packet was still built from the inputs by the template's steps, and the later parts (material, certificates, missing requirements, decisions 3 to 8) were not seen until after.
 

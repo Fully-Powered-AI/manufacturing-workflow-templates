@@ -285,4 +285,4 @@ off or send, decline: the manager decides and a person acts.
 
 ## Version notes
 
-- 0.1.0, 12 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once, with Claude, on its invented example on 12 November 2026; the record is published with it. Not yet tested in a client environment or as a packaged version.
+- 0.1.0, 12 November 2026. Written by FullyPowered AI from its own published map of the work. Tried once, with Claude, on its example on 12 November 2026; the record is published with it. Not yet tested in a client environment or as a packaged version.

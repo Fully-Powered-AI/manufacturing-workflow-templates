@@ -249,4 +249,4 @@ role, do not repeat them; tell the user to remove them.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example; changed after an independent review the same day and not run again (see `public/trial.md`). Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example; changed after an independent review the same day and not run again (see `public/trial.md`). Not yet tested in a client environment.

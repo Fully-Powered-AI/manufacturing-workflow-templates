@@ -8,7 +8,7 @@ Get one list of missing details, conflicting revisions and ambiguous tolerances 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/rfq-clarification-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)*
@@ -43,7 +43,7 @@ One list in a fixed order: missing details, conflicts between documents, ambiguo
 
 The draft message carries only what is ready: an engineer's ruling to pass on, a request for a supplier's assumption, a reminder. It never carries an unsettled conflict or a tolerance in question, and it never names one supplier to another.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -66,7 +66,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a past request whose problems you already know, with cases written in advance: a revision that differs between the request and the drawing, a tolerance stated twice, a supplier who guesses. The buyer and the engineer check every item against the documents before anyone relies on the list. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list) takes over once the quotes are in, setting them side by side; this one stops at what suppliers say about the request and leaves any price unread. [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list) handles the later step, when a supplier falls short of what was agreed; this one is about the request before the order.
 
@@ -74,13 +74,13 @@ Testing in your environment means running it on a past request whose problems yo
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

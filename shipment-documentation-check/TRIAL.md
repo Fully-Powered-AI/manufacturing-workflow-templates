@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (the settings and the five files for order PO-7781). No client data was used. The assistant that ran the trial did not write the template.
+The inputs were the example in `public/example.md` (the settings and the five files for order PO-7781). No client data was used. The assistant that ran the trial did not write the template.
 
 One thing weakens this trial. The example's output was printed in the same command as the template and the inputs, so the run was not blind: the assistant saw the published output before it produced its own. It followed the instruction block and the output format step by step and worked every count from the inputs, but a reader should weigh the match with the example accordingly.
 

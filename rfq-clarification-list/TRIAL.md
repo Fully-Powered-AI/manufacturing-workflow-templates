@@ -1,14 +1,14 @@
-# RFQ clarification list: one run on its invented example
+# RFQ clarification list: one run on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Quillfeather Assemblies, RFQ-2611-04, four lines, five documents, three suppliers). No client data was used. The run followed the instruction block and output format in the complete template. The model that ran it did not write the template, and read the example's output only after producing its own.
+The inputs were the example in `public/example.md` (Quillfeather Assemblies, RFQ-2611-04, four lines, five documents, three suppliers). No client data was used. The run followed the instruction block and output format in the complete template. The model that ran it did not write the template, and read the example's output only after producing its own.
 
 ## Inputs used
 
-Everything under "What the buyer supplies" in the example: the cover details, the four request lines, the document register, the typed drawing text, the buyer's note of 10 November, the engineer's ruling of 13 November, the six supplier answers, and the settings (today is Monday 16 November 2026, Monday to Friday working days, no closed dates, three working days to reply). The date above is the day of the run; the run itself used the example's invented date.
+Everything under "What the buyer supplies" in the example: the cover details, the four request lines, the document register, the typed drawing text, the buyer's note of 10 November, the engineer's ruling of 13 November, the six supplier answers, and the settings (today is Monday 16 November 2026, Monday to Friday working days, no closed dates, three working days to reply). The date above is the day of the run; the run itself used the example's illustrative date.
 
 ## What came out
 
@@ -55,7 +55,7 @@ Where the template was ambiguous and the run had to guess:
 - The order of items inside a section, and of the evidence for a revision conflict that has three statements (line, register, title block) where the format has room for two.
 - An answer that is both a different answer from another supplier and the only answer to its question: the rule for adding "differs from" is clear, but the format does not say whether to repeat both readings in a single line.
 
-Shortcomings: this was one run, by one model, on one invented example. It shows that the instructions can be followed and give the example's result. It does not show how the template performs on a real request, a scanned drawing, or a longer list. None of the ten acceptance tests in the template was run separately.
+Shortcomings: this was one run, by one model, on one example. It shows that the instructions can be followed and give the example's result. It does not show how the template performs on a real request, a scanned drawing, or a longer list. None of the ten acceptance tests in the template was run separately.
 
 ## Edited after this run, 10 November 2026, and not run again
 

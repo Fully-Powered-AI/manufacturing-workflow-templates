@@ -1,10 +1,10 @@
-# Line changeover review: one run on the invented example
+# Line changeover review: one run on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-12
 
-The inputs are the invented example in [the worked example](example.md): the settings, the observation sheet, the setup sheet and the three operator notes for "Company D", Line 2. No client data was used. The run was made once. The model read the template and the inputs first, produced the output, and only then read the example's published output to compare. The model did not write the template.
+The inputs are the example in [the worked example](example.md): the settings, the observation sheet, the setup sheet and the three operator notes for "Company D", Line 2. No client data was used. The run was made once. The model read the template and the inputs first, produced the output, and only then read the example's published output to compare. The model did not write the template.
 
 ## What came out
 
@@ -124,4 +124,4 @@ Draft for the Production lead's decision. Nothing on Line 2, in the procedure or
 - The facts file was edited for wording only.
 - Ambiguity 4 above is still open: "enter" is in no verb list, so step 10 is sorted wholly as needing the line stopped. It is a stated limit; the template's "What to customize" covers adding verbs.
 
-**Limits of this run.** It is one run, by one model, on one invented example, from the template's instructions only. The example's output was written before this run, and the model's output was produced without reading it, but the match on every figure shows the rules are determinate on this input, not that they hold on a real sheet. The fifteen acceptance tests in the template were not run. Nothing here was tested for a client.
+**Limits of this run.** It is one run, by one model, on one example, from the template's instructions only. The example's output was written before this run, and the model's output was produced without reading it, but the match on every figure shows the rules are determinate on this input, not that they hold on a real sheet. The fifteen acceptance tests in the template were not run. Nothing here was tested for a client.

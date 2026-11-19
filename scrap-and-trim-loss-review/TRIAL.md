@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-12
 
-The inputs were the invented example in [example.md](example.md): the scrap records, production counts, material issues, material per good unit, reason code list and settings for the invented Plant C, week of 2026-11-02. No client data was used. The assistant that ran the template did not write it. It followed the template's instruction block and output format on those inputs and did not read the example's published output until its own review was finished. The arithmetic was done with a short throwaway script and checked against the tables adding up; the figures were not copied from the example.
+The inputs were the example in [example.md](example.md): the scrap records, production counts, material issues, material per good unit, reason code list and settings for the illustrative Plant C, week of 2026-11-02. No client data was used. The assistant that ran the template did not write it. It followed the template's instruction block and output format on those inputs and did not read the example's published output until its own review was finished. The arithmetic was done with a short throwaway script and checked against the tables adding up; the figures were not copied from the example.
 
 ## What came out
 

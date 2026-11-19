@@ -1,6 +1,6 @@
-# Scrap and trim loss review: an invented example
+# Scrap and trim loss review: an example
 
-*Illustrative example with invented data.* The plant, products, orders, codes and every figure below are made up for this page. They stand for a small metal-stamping plant reviewing one week in November 2026, and describe nothing that happened anywhere.
+*Illustrative example with sample data.* The plant, products, orders, codes and every figure below are made up for this page. They stand for a small metal-stamping plant reviewing one week in November 2026, and describe nothing that happened anywhere.
 
 ## What the plant manager supplies
 

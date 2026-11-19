@@ -1,6 +1,6 @@
-# Production cost variance sheet: an invented example
+# Production cost variance sheet: an example
 
-*Illustrative example with invented data.* The plant, products, orders and every figure below are made up for this page. They stand for a small metal-parts plant closing October 2026, and describe nothing that happened anywhere.
+*Illustrative example with sample data.* The plant, products, orders and every figure below are made up for this page. They stand for a small metal-parts plant closing October 2026, and describe nothing that happened anywhere.
 
 ## What the controller supplies
 

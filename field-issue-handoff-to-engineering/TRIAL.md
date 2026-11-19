@@ -1,10 +1,10 @@
-# Field issue handoff to engineering: a trial on its invented example
+# Field issue handoff to engineering: a trial on its example
 
 - **Product:** Claude, run in Claude Code
 
-Model: Sonnet 5.5 (model ID claude-sonnet-5-5). Date: 2026-11-10. This is the third run. The first run, made before an independent review, found faults that were then fixed in the template and the example. The second run followed those fixes. The third was made after a second review's minor points were applied (a "not matched: no serial given" option and an optional line of other statements about a safety event in the output format, a seven-day default for a customer date that is close, restated missing-detail rules in the instruction block, a reworded gap line, and a less generic invented model name); this record replaces the second.
+Model: Sonnet 5.5 (model ID claude-sonnet-5-5). Date: 2026-11-10. This is the third run. The first run, made before an independent review, found faults that were then fixed in the template and the example. The second run followed those fixes. The third was made after a second review's minor points were applied (a "not matched: no serial given" option and an optional line of other statements about a safety event in the output format, a seven-day default for a customer date that is close, restated missing-detail rules in the instruction block, a reworded gap line, and a less generic illustrative model name); this record replaces the second.
 
-The inputs are the invented example in `public/example.md` (case C-3310, Customer A, the ZX-7 sealers). They are unchanged since the second run except that the invented model name is now ZX-7 and its serials ZX7-..., in place of an earlier, more generic name. No client data was used.
+The inputs are the example in `public/example.md` (case C-3310, Customer A, the ZX-7 sealers). They are unchanged since the second run except that the illustrative model name is now ZX-7 and its serials ZX7-..., in place of an earlier, more generic name. No client data was used.
 
 ## Inputs used
 

@@ -1,6 +1,6 @@
-# Line changeover review: an invented example
+# Line changeover review: an example
 
-*Illustrative example with invented data.* The company, the line, the products, the people and every time below are invented. "Company D" is an invented maker of bottled sauces with two filling lines. Its continuous-improvement lead timed one changeover on Line 2, from Sauce A in 500 ml bottles to Sauce B in 250 ml bottles, and ran the review for the production lead. People are named only by their position on the line. First come the inputs the continuous-improvement lead supplied, in full, then the draft the workflow template returned.
+*Illustrative example with sample data.* The company, the line, the products, the people and every time below are illustrative. "Company D" is an illustrative maker of bottled sauces with two filling lines. Its continuous-improvement lead timed one changeover on Line 2, from Sauce A in 500 ml bottles to Sauce B in 250 ml bottles, and ran the review for the production lead. People are named only by their position on the line. First come the inputs the continuous-improvement lead supplied, in full, then the draft the workflow template returned.
 
 ## The inputs
 

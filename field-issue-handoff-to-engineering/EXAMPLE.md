@@ -1,6 +1,6 @@
-# Field issue handoff to engineering: an invented example
+# Field issue handoff to engineering: an example
 
-*Illustrative example with invented data.* The company, its customer, the staff, the product, the case and every date below are invented. Company X is an invented maker of bench-top vacuum sealers for commercial kitchens. Dana is its customer service lead and Kofi a service technician. On Tuesday 10 November 2026 Dana asks for a brief on one case, to hand to the engineering support lead.
+*Illustrative example with sample data.* The company, its customer, the staff, the product, the case and every date below are illustrative. Company X is an illustrative maker of bench-top vacuum sealers for commercial kitchens. Dana is its customer service lead and Kofi a service technician. On Tuesday 10 November 2026 Dana asks for a brief on one case, to hand to the engineering support lead.
 
 The inputs come first, in full, so the template can be run on them. The brief follows.
 
