@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for manufacturers turn the AI your company alrea
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for manufacturers](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for manufacturers](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,18 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Find the gaps in a quote request before suppliers do.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, replace the square brackets with a request for quotation you already have, and send it. You need no sign-in here and nothing to download.
 
    ```text
-   You are helping a buyer prepare a clarification list for one request for quotation. Do not send anything, decide which document is right, interpret a tolerance, or accept a supplier's assumption. The buyer approves every message and the engineer settles every technical question. Here is the request: [paste each line with part number, revision, quantity, material, finish and delivery date], the cover details [currency, quote due date, how long a quote must stand, certificates], and the drawing notes [paste the title block and tolerance text]. List: 1. Details left blank. 2. Places where two documents disagree, quoting each exactly and never saying which is right. 3. Tolerances that cannot be read as written. For each item say who settles it. Draft one message to suppliers, marked not sent.
+   You are helping a buyer prepare a clarification list for one request for
+   quotation. Do not send anything, decide which document is right,
+   interpret a tolerance, or accept a supplier's assumption. The buyer
+   approves every message and the engineer settles every technical
+   question. Here is the request: [paste each line with part number,
+   revision, quantity, material, finish and delivery date], the cover
+   details [currency, quote due date, how long a quote must stand,
+   certificates], and the drawing notes [paste the title block and
+   tolerance text]. List: 1. Details left blank. 2. Places where two
+   documents disagree, quoting each exactly and never saying which is
+   right. 3. Tolerances that cannot be read as written. For each item say
+   who settles it. Draft one message to suppliers, marked not sent.
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:
