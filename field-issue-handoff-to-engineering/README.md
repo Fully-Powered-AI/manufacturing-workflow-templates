@@ -4,6 +4,8 @@ When a delivered product misbehaves for a customer, the customer service lead ge
 
 *Workflow template · Manufacturing · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/?from=gh-field-issue-handoff-to-engineering)
+
 ## The outcome
 
 Engineering receives a case it can read in a few minutes instead of a forwarded email chain. The brief says which product and revision the customer has, which serial numbers are settled and which are not, what the customer says is happening and since when, which photographs came in and what the sender says they show, what service has already done, and what nobody yet knows.

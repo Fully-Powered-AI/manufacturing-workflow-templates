@@ -4,6 +4,8 @@ Before an order goes to the floor, the production or quality lead gets one packe
 
 *Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/job-readiness-packet/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/job-readiness-packet/?from=gh-manufacturing-job-readiness-packet)
+
 ## The outcome
 
 An order reaches the floor with a short list of what is wrong with it, instead of a surprise at the machine. The production or quality lead gets a packet that sets what the order calls for beside what the document register says is approved: the drawing, the process specifications, the inspection plan and the material. Each requirement is sorted into one plain class, so nothing is quietly skipped.

@@ -4,6 +4,8 @@ When orders or forecasts change, the production planner gets a draft build sched
 
 *Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/production-schedule-rebuild/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/production-schedule-rebuild/?from=gh-production-schedule-rebuild)
+
 ## The outcome
 
 An order moves, a rush arrives, a forecast is revised, and the planner has a new draft schedule the same day instead of rebuilding a spreadsheet. Each order that can be placed sits in the week it is due. Each work centre shows its hours against its capacity, and each material shows its balance week by week.

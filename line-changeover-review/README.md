@@ -4,6 +4,8 @@ From the observed steps and timings of one changeover, the production lead gets 
 
 *Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/line-changeover-review/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/line-changeover-review/?from=gh-manufacturing-line-changeover-review)
+
 ## The outcome
 
 Every minute a line stands still between products is a minute it makes nothing. This workflow template turns one timed changeover into a clear picture of where those minutes go, and a plan to win some of them back with the people and parts you already have.

@@ -4,6 +4,8 @@ A buyer sending drawings and specifications out for quotation gets one list of m
 
 *Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/rfq-clarification-list/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/rfq-clarification-list/?from=gh-manufacturing-rfq-clarification-list)
+
 ## The outcome
 
 An incomplete request for quotation costs more than the time it takes to fix. Suppliers fill the gaps with their own guesses, quote different revisions, and send back prices that cannot be set side by side. This workflow template finds the gaps before the quotes come back, and keeps them in one place afterwards.

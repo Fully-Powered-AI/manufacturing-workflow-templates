@@ -4,6 +4,8 @@ When a job finishes, the shipping or quality lead gets one index comparing the o
 
 *Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/shipment-documentation-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/shipment-documentation-check/?from=gh-shipment-documentation-check)
+
 ## The outcome
 
 The last hour before a shipment leaves is a bad time to find that a certificate was never filed, or that fifty-five pieces are on the pallet for an order of fifty. This workflow template does the comparison earlier, in one pass, while there is still time to find the paper or count the pieces again.

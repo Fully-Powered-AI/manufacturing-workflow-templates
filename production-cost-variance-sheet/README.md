@@ -4,6 +4,8 @@ At period close the plant controller gets one sheet that separates material, lab
 
 *Workflow template · Manufacturing · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/production-cost-variance-sheet/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/production-cost-variance-sheet/?from=gh-production-cost-variance-sheet)
+
 ## The outcome
 
 When production closes for the period, the controller does not start from a pile of exports. The sheet is ready: for every closed order, what the standard cost card allowed for the good units made, what was actually booked, and the gap between them, split into material price and material usage, labor rate and labor efficiency, and overhead spending and overhead efficiency. The same figures are added up by element and by product, and every set of parts ties back to actual cost less standard cost.
