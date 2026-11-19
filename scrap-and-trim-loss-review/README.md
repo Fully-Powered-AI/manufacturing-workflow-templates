@@ -1,10 +1,17 @@
 # Scrap and trim loss review
 
-Each week or month the plant manager gets one review of the material recorded as scrap and trim, by product, machine, shift and reason, with a balance for each completed order, every place the records disagree, and improvement questions. It states no cause the records do not show.
+See scrap and trim by product, machine, shift and reason, with a material balance per order and every place the records disagree. No cause is stated.
 
-*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/scrap-and-trim-loss-review/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Scrap and trim loss review on our website](https://fullypowered.ai/workflows/scrap-and-trim-loss-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/scrap-and-trim-loss-review/?from=gh-scrap-and-trim-loss-review)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/scrap-and-trim-loss-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review)*
 
 ## The outcome
 
@@ -37,15 +44,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where scrap tickets, production counts and stores issues are kept by different people and rarely read side by side.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), for product makers who cut, form or mould their own parts and want to see where material goes.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), for brands that run their own production and watch material loss as closely as sales.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), which runs the production floor and decides where to look for waste.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), which owns the reason codes and investigates once a pattern is worth chasing.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where years of scrap records exist and are seldom added up.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more shifts and machines make the waste harder to see from the floor.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), where scrap tickets, production counts and stores issues are kept by different people and rarely read side by side.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), for product makers who cut, form or mould their own parts and want to see where material goes.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), for brands that run their own production and watch material loss as closely as sales.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), which runs the production floor and decides where to look for waste.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), which owns the reason codes and investigates once a pattern is worth chasing.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), where years of scrap records exist and are seldom added up.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review), when more shifts and machines make the waste harder to see from the floor.
 
-It sits beside two related workflow templates and does not replace them. [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/) puts a money value on failures; this review counts material and never costs it. [Production cost variance sheet](https://fullypowered.ai/workflows/production-cost-variance-sheet/) explains cost differences from standard for finance; this one shows where material was recorded as lost, for the people running the floor.
+It sits beside two related workflow templates and does not replace them. [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review) puts a money value on failures; this review counts material and never costs it. [Production cost variance sheet](https://fullypowered.ai/workflows/production-cost-variance-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review) explains cost differences from standard for finance; this one shows where material was recorded as lost, for the people running the floor.
 
 ## What has to change for your company
 
@@ -55,7 +62,7 @@ Map your own export columns to the default headers. Agree the reason code list w
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 12 November 2026. It was tried once, with Claude, on its invented example on 12 November 2026; no stop condition, request for a cause or a culprit, request to cost the loss, or note naming a person was exercised in that run, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past month your plant manager already knows, with cases written in advance: a scrap entry recorded in pieces instead of weight, a run with rejected parts and no scrap entry, a completed order whose issues do not balance, a blank reason code. The plant manager recomputes two groups and one balance by hand before anyone relies on the review. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
+Testing in your environment means running it on a past month your plant manager already knows, with cases written in advance: a scrap entry recorded in pieces instead of weight, a run with rejected parts and no scrap entry, a completed order whose issues do not balance, a blank reason code. The plant manager recomputes two groups and one balance by hand before anyone relies on the review. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review) shows the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -82,10 +89,10 @@ Testing in your environment means running it on a past month your plant manager 
 
 ## Related workflow templates
 
-- [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/)
+- [Cost of poor quality worksheet](https://fullypowered.ai/workflows/cost-of-poor-quality-worksheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review)
 - [Production cost variance sheet](../production-cost-variance-sheet/)
-- [Operations KPI scorecard](https://fullypowered.ai/workflows/operations-kpi-scorecard/)
+- [Operations KPI scorecard](https://fullypowered.ai/workflows/operations-kpi-scorecard/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-scrap-and-trim-loss-review&from=gh-scrap-and-trim-loss-review).

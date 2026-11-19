@@ -1,10 +1,17 @@
 # RFQ clarification list
 
-A buyer sending drawings and specifications out for quotation gets one list of missing details, conflicting revisions and ambiguous tolerances, and a record of each supplier's answers. The buyer approves every message; the engineer settles every technical question.
+Get one list of missing details, conflicting revisions and ambiguous tolerances before quotes come back. The buyer approves every message.
 
-*Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/rfq-clarification-list/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See RFQ clarification list on our website](https://fullypowered.ai/workflows/rfq-clarification-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/rfq-clarification-list/?from=gh-manufacturing-rfq-clarification-list)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Manufacturing · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/rfq-clarification-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)*
 
 ## The outcome
 
@@ -40,13 +47,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/), where the buyer owns the request and the replies.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/), where a quote on the wrong revision becomes a part that arrives wrong.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where parts are bought to drawing and revisions change often.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where new parts are quoted from drawings that are still moving.
-- [Engineering firms](https://fullypowered.ai/industries/engineering-firms/), where fabricated parts are bought to a client's design.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where the drawing set has grown by habit and nobody has checked it against the request.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), where more requests are going out than one buyer can read line by line.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where the buyer owns the request and the replies.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where a quote on the wrong revision becomes a part that arrives wrong.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where parts are bought to drawing and revisions change often.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where new parts are quoted from drawings that are still moving.
+- [Engineering firms](https://fullypowered.ai/industries/engineering-firms/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where fabricated parts are bought to a client's design.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where the drawing set has grown by habit and nobody has checked it against the request.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list), where more requests are going out than one buyer can read line by line.
 
 ## What has to change for your company
 
@@ -61,7 +68,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 FullyPowered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment.
 
-Testing in your environment means running it on a past request whose problems you already know, with cases written in advance: a revision that differs between the request and the drawing, a tolerance stated twice, a supplier who guesses. The buyer and the engineer check every item against the documents before anyone relies on the list. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/) takes over once the quotes are in, setting them side by side; this one stops at what suppliers say about the request and leaves any price unread. [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/) handles the later step, when a supplier falls short of what was agreed; this one is about the request before the order.
+Testing in your environment means running it on a past request whose problems you already know, with cases written in advance: a revision that differs between the request and the drawing, a tolerance stated twice, a supplier who guesses. The buyer and the engineer check every item against the documents before anyone relies on the list. [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list) takes over once the quotes are in, setting them side by side; this one stops at what suppliers say about the request and leaves any price unread. [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list) handles the later step, when a supplier falls short of what was agreed; this one is about the request before the order.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -88,11 +95,11 @@ Testing in your environment means running it on a past request whose problems yo
 
 ## Related workflow templates
 
-- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
-- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/)
-- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/)
-- [Category sourcing plan](https://fullypowered.ai/workflows/category-sourcing-plan/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)
+- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)
+- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)
+- [Category sourcing plan](https://fullypowered.ai/workflows/category-sourcing-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-rfq-clarification-list&from=gh-manufacturing-rfq-clarification-list).

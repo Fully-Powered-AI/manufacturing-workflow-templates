@@ -1,10 +1,17 @@
 # Line changeover review
 
-From the observed steps and timings of one changeover, the production lead gets every step sorted into work that needs the line stopped and work that could be done while it runs, the stop totalled, and an improvement plan to test on the line. Safety and quality steps are never proposed for removal.
+Sort each step of a timed changeover into work that needs the line stopped and work that can be done while it runs, then test an improvement plan.
 
-*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/line-changeover-review/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Line changeover review on our website](https://fullypowered.ai/workflows/line-changeover-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/line-changeover-review/?from=gh-manufacturing-line-changeover-review)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/line-changeover-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review)*
 
 ## The outcome
 
@@ -39,14 +46,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), where cutting changeover time is one of the plainest ways to get more from the same line.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where every product change on a line is lost making time.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), for brands that fill and pack their own products and change sizes and flavours often.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where small batches mean many changeovers on the same equipment.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more products on the same line mean more changeovers every week.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where changeovers are done the way they have always been done and nobody has timed one in years.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), where cutting changeover time is one of the plainest ways to get more from the same line.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), where every product change on a line is lost making time.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), for brands that fill and pack their own products and change sizes and flavours often.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), where small batches mean many changeovers on the same equipment.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), when more products on the same line mean more changeovers every week.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), where changeovers are done the way they have always been done and nobody has timed one in years.
 
-It is not [a production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/), which decides which week each order is built in. It is not [an SOP written from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/), which writes the procedure down; once a tested change is adopted, that is the way to update the changeover procedure. And it is not [a process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/), which looks for the one step that limits a whole process. This one takes a single changeover apart, step by step, minute by minute.
+It is not [a production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), which decides which week each order is built in. It is not [an SOP written from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), which writes the procedure down; once a tested change is adopted, that is the way to update the changeover procedure. And it is not [a process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review), which looks for the one step that limits a whole process. This one takes a single changeover apart, step by step, minute by minute.
 
 ## What has to change for your company
 
@@ -56,7 +63,7 @@ Agree what the stop is: the template counts from the last good unit of the old p
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 12 November 2026. It was tried once on its invented example in Claude on 12 November 2026, and the record of that run is published with it; no stop condition or decline was exercised in that run, and the small edits made afterward have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a changeover your production lead has already timed and knows well, with hard cases written in advance: two people working at once, a gap in the record, a clean marked as neither safety nor quality, a step that went unusually, a request to drop the first-off check. The production lead checks every minute against the sheet before anyone relies on the plan. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a changeover your production lead has already timed and knows well, with hard cases written in advance: two people working at once, a gap in the record, a clean marked as neither safety nor quality, a step that went unusually, a request to drop the first-off check. The production lead checks every minute against the sheet before anyone relies on the plan. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -84,9 +91,9 @@ Testing in your environment means running it on a changeover your production lea
 ## Related workflow templates
 
 - [Production schedule rebuild](../production-schedule-rebuild/)
-- [Write an SOP from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/)
-- [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/)
+- [Write an SOP from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review)
+- [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-line-changeover-review&from=gh-manufacturing-line-changeover-review).

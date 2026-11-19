@@ -1,14 +1,58 @@
-# FullyPowered Workflow Templates: Manufacturing
+# AI workflow templates for manufacturers
 
-A plant where the next job is always ready to run. These workflow templates are written for manufacturers. They prepare the schedules, packets and checks around a job from your own orders and records, and the people who run the plant decide what is made, when, and whether it ships.
+FullyPowered Workflow Templates for manufacturers turn the AI your company already pays for into a team that knows how the work is done: a production planner with the build schedule redrafted after an order change, a plant controller with the period-close cost variances separated and flagged, a production lead with every job checked against its drawings before release. 8 workflow templates, made to be customized and deployed. All plain Markdown, all free, MIT license.
 
-**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
-**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for manufacturers](https://fullypowered.ai/industries/manufacturing/?from=gh-manufacturing) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-manufacturing)
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for manufacturers](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-This repository holds 8 workflow templates for production, planning and operations leads at a manufacturer. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**Who this is for**
 
-## The workflow templates
+- Plant owners and operations executives who have paid for AI and want it doing real work on the floor.
+- Production, planning and quality leads who want a workflow their team can run this week.
+- The planner, buyer or controller who does the work, gets a precise way to prepare it and still makes the call.
+
+**What these are for**
+
+- **Your best way of doing it, for the whole team.** One piece of work, written down precisely enough that an assistant prepares it the same way every time.
+- **Work you can check.** Every template says what it needs, what it produces, what it checked and what it could not.
+- **A person decides.** Anything that sends, posts, pays or changes a record waits for someone to approve it.
+- **Tied into your business systems.** A workflow can be designed to pull from the systems your company already runs, and even push data back into them, with guardrails and a person approving. [Browse the Connectors Directory](https://fullypowered.ai/connectors/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme).
+- **Free, open and portable.** MIT-licensed plain instructions that run in the assistant or agent your team already uses: ChatGPT, Claude, Claude Code, Claude Cowork, Codex, Copilot, Gemini, Grok, Perplexity.
+
+**Quick start**
+
+1. **Find the gaps in a quote request before suppliers do.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, replace the square brackets with a request for quotation you already have, and send it. You need no sign-in here and nothing to download.
+
+   ```text
+   You are helping a buyer prepare a clarification list for one request for quotation. Do not send anything, decide which document is right, interpret a tolerance, or accept a supplier's assumption. The buyer approves every message and the engineer settles every technical question. Here is the request: [paste each line with part number, revision, quantity, material, finish and delivery date], the cover details [currency, quote due date, how long a quote must stand, certificates], and the drawing notes [paste the title block and tolerance text]. List: 1. Details left blank. 2. Places where two documents disagree, quoting each exactly and never saying which is right. 3. Tolerances that cannot be read as written. For each item say who settles it. Draft one message to suppliers, marked not sent.
+   ```
+
+2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:
+
+   ```text
+   RFQ CLARIFICATION LIST: RFQ-2611-04
+
+   For: Priya, with Tomas (responsible engineer). Run on 2026-11-16. Quote due 2026-11-20 (4 working days left). Suppliers: Supplier A, Supplier B, Supplier C.
+   Package read: 4 lines; 5 documents in the register; drawing text read for 4 of 4 drawings.
+
+   Summary: 10 items. Waiting for the buyer's value: 4. Waiting for the engineer: 5. Settled by the engineer: 1. Closed by the buyer: 0.
+
+   1. Missing details
+   RFQ-CUR Request: the currency is blank. No other document states it. Why it matters: quotes in different currencies cannot be set side by side. Settled by: the buyer. Status: Waiting for the buyer's value.
+   RFQ-VAL Request: how long a quote must stand is blank. No other document states it. Why it matters: the buyer cannot tell how long a price stands. Settled by: the buyer. Status: Waiting for the buyer's value.
+   L2-FIN Line 2, QA-1043: the finish is blank. Drawing QA-1043, note 1, says "Deburr and passivate." Why it matters: the finish sets the price and the process route. Settled by: the buyer. Status: Waiting for the buyer's value.
+   L3-QTY Line 3, QA-2210: the quantity is blank. No other document states it. Why it matters: there is no quantity to price. Settled by: the buyer. Status: Waiting for the buyer's value.
+   ```
+
+3. Stop there. You will know if this is for you. When you want it fitted to your company, or built into your agents, [that is what we do](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme).
+
+A person starts every workflow, supplies the inputs and decides; the template prepares and checks, and nothing is approved, sent or released for you.
+
+These are examples and a starting point, made to be customized to your plant, your records and your way of working. Work that is not listed here can be built, as one step or many.
+
+## The workflow templates here today
 
 - **[Field issue handoff to engineering](field-issue-handoff-to-engineering/)**: When a delivered product misbehaves for a customer, the customer service lead gets one case brief for engineering: the revision and serial references, the symptoms as reported, the photographs supplied, what service has done and the questions still unanswered. It names no cause.
 - **[Job readiness packet](job-readiness-packet/)**: Before an order goes to the floor, the production or quality lead gets one packet: each requirement matched to its approved drawing, specification or inspection plan, with conflicting revisions, gaps and material shortfalls listed. The owners decide; nothing is approved or released.
@@ -37,10 +81,10 @@ Each folder says exactly what was checked and when: who wrote it, that its sourc
 
 ## More workflow templates
 
-The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
+The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
 
-For the work these templates come from, by area of the business and by task, see [AI workflow examples for manufacturers](https://fullypowered.ai/industries/manufacturing/).
+For the work these templates come from, by area of the business and by task, see [AI workflow examples for manufacturers](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme).
 
 ## Licence and credits
 
-MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/).
+MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-readme&from=gh-manufacturing-readme).

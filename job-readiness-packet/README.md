@@ -1,10 +1,17 @@
 # Job readiness packet
 
-Before an order goes to the floor, the production or quality lead gets one packet: each requirement matched to its approved drawing, specification or inspection plan, with conflicting revisions, gaps and material shortfalls listed. The owners decide; nothing is approved or released.
+Get one packet before an order goes to the floor: requirements matched to approved documents, conflicts and shortages listed. Owners decide.
 
-*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/job-readiness-packet/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Job readiness packet on our website](https://fullypowered.ai/workflows/job-readiness-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/job-readiness-packet/?from=gh-manufacturing-job-readiness-packet)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Manufacturing · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/job-readiness-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet)*
 
 ## The outcome
 
@@ -36,14 +43,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Operations & process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), where the readiness of the next order is a daily question for the production lead.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), where the revision on the order must be the one the quality lead approved.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where an order released with the wrong revision becomes scrap or rework.
-- [Hardware & physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where small production runs change revision often.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where readiness lives in several people's heads and spreadsheets.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more orders mean the check can no longer be done from memory.
+- [Operations & process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), where the readiness of the next order is a daily question for the production lead.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), where the revision on the order must be the one the quality lead approved.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), where an order released with the wrong revision becomes scrap or rework.
+- [Hardware & physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), where small production runs change revision often.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), where readiness lives in several people's heads and spreadsheets.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet), when more orders mean the check can no longer be done from memory.
 
-It differs from two neighbours. [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/) looks at which copies of instructions are held at the points of use; this packet looks at one order against the register. [Project handover readiness check](https://fullypowered.ai/workflows/project-handover-readiness-check/) is for handing a finished project to the team that will run it, not for releasing an order.
+It differs from two neighbours. [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet) looks at which copies of instructions are held at the points of use; this packet looks at one order against the register. [Project handover readiness check](https://fullypowered.ai/workflows/project-handover-readiness-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet) is for handing a finished project to the team that will run it, not for releasing an order.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Fix the files and their column names once, so every order starts from the same e
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The small points that run found open were settled the same day, after an independent review, without a rerun; the record lists them. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past order you already know well, with cases written in advance: a drawing called at a superseded revision, two sources calling different revisions, a specification missing from the register, material on order after the due date. The production and quality owners check every line of the packet against the register itself before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past order you already know well, with cases written in advance: a drawing called at a superseded revision, two sources calling different revisions, a specification missing from the register, material on order after the due date. The production and quality owners check every line of the packet against the register itself before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -80,10 +87,10 @@ Testing in your environment means running it on a past order you already know we
 
 ## Related workflow templates
 
-- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/)
-- [Supplier quality response check](https://fullypowered.ai/workflows/supplier-quality-response-check/)
-- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
+- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet)
+- [Supplier quality response check](https://fullypowered.ai/workflows/supplier-quality-response-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-job-readiness-packet&from=gh-manufacturing-job-readiness-packet).

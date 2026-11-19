@@ -1,10 +1,17 @@
 # Shipment documentation check
 
-When a job finishes, the shipping or quality lead gets one index comparing the order, the inspection records, the required certificates and the packing details, with each missing record and each quantity that does not agree set out. Nothing is certified or released.
+One index comparing the order, inspection records, required certificates and packing details, with every gap and mismatch set out. People decide release.
 
-*Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/shipment-documentation-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Shipment documentation check on our website](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/shipment-documentation-check/?from=gh-shipment-documentation-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Manufacturing · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check)*
 
 ## The outcome
 
@@ -41,15 +48,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Quality management](https://fullypowered.ai/functions/quality-management/): the check made before goods leave, from records the quality team already keeps.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the shipping side, where what is packed has to match what was ordered.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): made-to-order jobs that ship with inspection reports, material certificates and a packing list.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/): product builds shipped to customers with their records.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): consolidated or forwarded goods where the paper has to travel with them.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the check lives in one person's head and one folder.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when more jobs ship each week than one person can check by eye.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): the check made before goods leave, from records the quality team already keeps.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): the shipping side, where what is packed has to match what was ordered.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): made-to-order jobs that ship with inspection reports, material certificates and a packing list.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): product builds shipped to customers with their records.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): consolidated or forwarded goods where the paper has to travel with them.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): when the check lives in one person's head and one folder.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check): when more jobs ship each week than one person can check by eye.
 
-It checks one finished order's papers against its quantities. Preparing audit evidence across the business is [audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/). The daily list of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/). A finding that becomes a nonconformity record is [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/).
+It checks one finished order's papers against its quantities. Preparing audit evidence across the business is [audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check). The daily list of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check). A finding that becomes a nonconformity record is [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check).
 
 ## What has to change for your company
 
@@ -91,11 +98,11 @@ Testing in your environment means running it on a recent shipment that your qual
 
 ## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
-- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/)
-- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check)
+- [Audit evidence index](https://fullypowered.ai/workflows/audit-evidence-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check)
+- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check)
 - [Job readiness packet](../job-readiness-packet/)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check).
