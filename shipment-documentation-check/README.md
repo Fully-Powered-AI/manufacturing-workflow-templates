@@ -1,6 +1,6 @@
 # Shipment documentation check
 
-One index comparing the order, inspection records, required certificates and packing details, with every gap and mismatch set out. People decide release.
+Check a shipment's records before release: the order, inspection records, certificates and packing details in one index, with every gap. Free template.
 
 > [!TIP]
 > **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Shipment documentation check on our website](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=manufacturing-shipment-documentation-check&from=gh-shipment-documentation-check). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
